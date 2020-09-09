@@ -7,7 +7,9 @@ const express = require('express');
 const app = express();
 
 const port = process.env.PORT || 8080;
-const webhookUrl = 'https://03d1d4e5186c.ngrok.io';
+// const webhookUrl = 'https://03d1d4e5186c.ngrok.io';
+const webhookUrl = 'https://safe-meadow-75391.herokuapp.com';
+
 
 let init = () => {
     bot.setWebhook(webhookUrl)
